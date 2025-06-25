@@ -1,7 +1,7 @@
 
 # 🚀 Deploying a Public Docker Image to Azure Container Apps
 
-This project demonstrates how to **deploy a Docker container image** (MongoDB:1.27) from **Docker Hub** to **Azure Container Apps** using the Azure Portal. The deployment replicates local behavior in the cloud with minimal setup.
+This project demonstrates how to **deploy a Docker container image** (Nginx:1.27) from **Docker Hub** to **Azure Container Apps** using the Azure Portal. The deployment replicates local behavior in the cloud with minimal setup.
 
 ---
 
@@ -24,9 +24,9 @@ This project demonstrates how to **deploy a Docker container image** (MongoDB:1.
    - Container App Environment: `MongoAppEnv`
 
 3. **Configure App**
-   - Name: `mongo-container-app`
+   - Name: `dockerimageim`
    - Image Source: **Docker Hub**
-   - Image: `mongo:1.27`
+   - Image: `nginx:1.27`
    - Port: `80`  
    - Ingress: **Enabled** (Allow public access)
    - CPU/Memory: `0.5 CPU / 1.0 GiB`
