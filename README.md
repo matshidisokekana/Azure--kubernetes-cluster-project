@@ -63,14 +63,6 @@ This project helped me develop a **cloud-native mindset**, preparing me for larg
 - ⚡ Quick and efficient deployment, simulating real-world container hosting
 
 ---
-
-## 📁 Folder Structure
-
-```
-
-docker-to-azure-container-app/
-├── README.md
-└── (Azure deployment was portal-based; no local source files needed)
 ## 🙋🏽‍♂️ Author
 
 **Matshidis0**
